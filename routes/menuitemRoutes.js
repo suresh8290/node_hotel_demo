@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const MenuItem= require('./../models/Menuitem');
+const MenuItem= require('../models/MenuItem');
 
 
 

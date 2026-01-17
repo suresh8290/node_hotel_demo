@@ -108,7 +108,7 @@ router.get('/',async (req,res)=>{
         res.status(200).json(data);
     }catch(err){
         console.log(err);
-        res.status(500).json({error:'Internal server me error aa gya'});
+        res.status(500).json({error:err.message});
     }
 
 })
